@@ -1,10 +1,10 @@
 <?php
-namespace Jobinja\Djangoable;
+namespace Jobinja\Djangoauth;
 
 use Illuminate\Auth\AuthManager;
 use Illuminate\Support\ServiceProvider;
 
-class DjangoableServiceProvider extends ServiceProvider
+class DjangoauthServiceProvider extends ServiceProvider
 {
     /**
      * Boot method
@@ -16,12 +16,12 @@ class DjangoableServiceProvider extends ServiceProvider
         /** @var AuthManager $auth */
         $auth = $this->app['auth'];
 
-        $auth->extend('djangoable', function () {
-            return new DjangoableEloquentUserProvider(new DjangoableHasher(), config('auth.model'));
+        $auth->extend('djangoauth', function () {
+            return new DjangoauthEloquentUserProvider(new DjangoauthHasher(), config('auth.model'));
         });
 
-        $auth->extend('djangoable_database', function () {
-            return new DjangoableDatabaseUserProvider(new DjangoableHasher(), config('auth.table'));
+        $auth->extend('djangoauth_database', function () {
+            return new DjangoauthDatabaseUserProvider(new DjangoauthHasher(), config('auth.table'));
         });
     }
 

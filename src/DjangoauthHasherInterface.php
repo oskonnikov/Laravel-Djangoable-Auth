@@ -1,9 +1,9 @@
 <?php
-namespace Jobinja\Djangoable;
+namespace Jobinja\Djangoauth;
 
 use Illuminate\Contracts\Hashing\Hasher;
 
-interface DjangoableHasherInterface extends Hasher
+interface DjangoauthHasherInterface extends Hasher
 {
     /**
      * Check for django algos

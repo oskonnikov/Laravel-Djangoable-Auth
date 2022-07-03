@@ -1,9 +1,9 @@
 <?php
-namespace Jobinja\Djangoable;
+namespace Jobinja\Djangoauth;
 
 use Illuminate\Hashing\BcryptHasher;
 
-class DjangoableHasher extends BcryptHasher implements DjangoableHasherInterface
+class DjangoauthHasher extends BcryptHasher implements DjangoauthHasherInterface
 {
     /**
      * Supported hash algos

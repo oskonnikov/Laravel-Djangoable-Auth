@@ -1,5 +1,5 @@
 {
-  "name": "oskonnikov/laravel-djangoable-auth",
+  "name": "oskonnikov/laravel-djangoauth-driver",
   "description": "An authentication driver for Laravel5 which allows to authenticate users using their legacy Django PBKDF2, forked version",
   "license": "GPL-3.0",
   "authors": [
@@ -21,7 +21,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Jobinja\\Djangoable\\": "src/"
+      "Jobinja\\Djangoauth\\": "src/"
     }
   }
 }

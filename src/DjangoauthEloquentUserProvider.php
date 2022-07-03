@@ -1,11 +1,11 @@
 <?php
-namespace Jobinja\Djangoable;
+namespace Jobinja\Djangoauth;
 
 use Illuminate\Auth\EloquentUserProvider;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\UserProvider;
 
-class DjangoableEloquentUserProvider extends EloquentUserProvider implements UserProvider
+class DjangoauthEloquentUserProvider extends EloquentUserProvider implements UserProvider
 {
     /**
      * Validate a user against the given credentials.

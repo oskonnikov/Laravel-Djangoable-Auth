@@ -10,7 +10,7 @@
          stopOnFailure="false"
          syntaxCheck="false">
     <testsuites>
-        <testsuite name="Jobinja Djangoable test suite">
+        <testsuite name="Jobinja Djangoauth test suite">
             <directory>./tests/</directory>
         </testsuite>
     </testsuites>

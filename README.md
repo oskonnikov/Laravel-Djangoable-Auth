@@ -5,12 +5,12 @@ An authentication driver for Laravel5 which allows to authenticate users using t
 Add the following service provider to the providers section of ```config/app.php``` :
 
 ```php
-Jobinja\Djangoable\DjangoableServiceProvider::class
+Jobinja\Djangoauth\DjangoauthServiceProvider::class
 ```
 
-Then change your auth driver to ```djangoable``` in ```config/auth.php```.
+Then change your auth driver to ```djangoauth``` in ```config/auth.php```.
 
-If you prefer to use database driver instead of eloquent use ```djangoable_database``` instead of ```djangoable``` .
+If you prefer to use database driver instead of eloquent use ```djangoauth_database``` instead of ```djangoauth``` .
 
 
 ### Refreshing passwords on first login
