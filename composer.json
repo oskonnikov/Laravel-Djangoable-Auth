@@ -1,7 +1,7 @@
 {
   "name": "oskonnikov/laravel-djangoable-auth",
   "description": "An authentication driver for Laravel5 which allows to authenticate users using their legacy Django PBKDF2, forked version",
-  "license": "GPLv3.0",
+  "license": "GPL-3.0",
   "authors": [
     {
       "name": "Oleg Skonnikov",
