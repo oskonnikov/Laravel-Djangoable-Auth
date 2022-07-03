@@ -1,19 +1,19 @@
 {
-  "name": "jobinja/laravel-djangoable-auth",
-  "description": "An authentication driver for Laravel5 which allows to authenticate users using their legacy Django PBKDF2",
+  "name": "oskonnikov/laravel-djangoable-auth",
+  "description": "An authentication driver for Laravel5 which allows to authenticate users using their legacy Django PBKDF2, forked version",
   "license": "GPLv3.0",
   "authors": [
     {
-      "name": "Reza Shadman",
-      "email": "reza@jobinja.ir"
+      "name": "Oleg Skonnikov",
+      "email": "admin@xdevops.ru"
     }
   ],
   "require": {
     "php": ">=5.5.9",
-    "illuminate/database": "5.1.*",
-    "illuminate/auth" : "5.1.*",
-    "illuminate/contracts" : "5.1.*",
-    "illuminate/hashing" : "5.1.*"
+    "illuminate/database": "5.8.*",
+    "illuminate/auth" : "5.8.*",
+    "illuminate/contracts" : "5.8.*",
+    "illuminate/hashing" : "5.8.*"
   },
   "require-dev" : {
     "mockery/mockery": "~0.9.1",
